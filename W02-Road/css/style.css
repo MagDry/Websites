@@ -32,7 +32,7 @@
     margin-bottom: 10px;
 }
 
-/* Nagłówek */ 
+/* Header */ 
 
 .top {
     height: 80px;
@@ -66,7 +66,7 @@ a {
     color: white;
 }
 
-/* Nagłówek cz.2 */
+/* Header v.02 */
 
 .empty {
     height: 170px;
@@ -172,7 +172,6 @@ p {
     color: #474747;  
 } 
 /* konieczne było napisanie stylowania dla a */
-
 
 .last {
     height: 90px;
