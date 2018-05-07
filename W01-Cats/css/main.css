@@ -1,0 +1,118 @@
+/* reset */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* general */
+
+body {
+    background-color: powderblue;
+}
+
+/* header */
+
+header {
+    width: 98vw;
+    height: 30px;
+    box-shadow: 0 0 2px 2px grey;
+    background-color: whitesmoke;
+    color: darkslategrey;
+    margin-top: 1vh;
+}
+
+header div {
+    width: 46%;
+}
+
+header div:first-child {
+    padding-top: 2px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.menu {
+    width: 15%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(221, 236, 238);
+    box-shadow: 0 0 5px 1px rgb(192, 191, 191);
+}
+
+.menu a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+/* photo section */
+
+photo {
+    width: 65vw;
+    height: 60vh; 
+    margin-top: 5vh;
+    background-image: url('../photos/catsphoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgb(134, 173, 179);
+}
+
+/* main section */
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+main div {
+    margin: 10px;
+    margin-top: 5vh;
+    box-shadow: 0 0 10px 3px grey;
+    background-color: whitesmoke;
+    color: darkslategrey;
+}
+
+main div p {
+    margin: 10px;
+}
+
+/* footer section */
+
+footer {
+    width: 98vw;
+    height: 30px;
+    box-shadow: 0 0 2px 2px grey;
+    background-color: whitesmoke;
+    color: darkslategrey;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
+}
+
+footer div {
+    width: 30%;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer div:nth-child(2) {
+    text-align: center;
+}
+
+footer div:nth-child(3) {
+    text-align: end;
+}
