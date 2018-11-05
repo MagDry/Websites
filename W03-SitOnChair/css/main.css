@@ -1,0 +1,547 @@
+/* Plik reset */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Encode Sans Expanded', sans-serif; 
+}
+
+/* Kontener dla każdej z sekcji */
+
+.container {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    height: 30px;
+    width: 100vw;
+    background: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Podział strony na dwie kolumny */
+
+.col50 {
+    width: 50%;
+    float: left;
+}
+
+/* Nawigacja */
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+
+li a {
+    display: block;
+    width: 120px;
+    text-decoration: none;
+    color: white;;
+    text-align: center;
+    background: black;
+    padding: 5px;
+}
+
+li a:hover {
+    color: rgb(50, 201, 181);
+}
+
+.mainLi {
+    display: inred;
+    float: left;
+}
+
+/* Rozwijane menu do "O FIRMIE" */
+
+/* kiedy lista jest wyświetlana */
+
+.show {
+    position: absolute;
+    z-index: 99;
+}
+
+/* kiedy ukryta */
+
+.noShow {
+    display: none;
+}
+
+.noShow2 {
+    display: none;
+}
+
+/* Logo */
+
+#name {
+    padding: 7px;
+}
+
+span {
+    color: rgb(50, 201, 181);
+}
+
+/* Sekcja Slider */
+
+#slider {
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2, #e5e5e5, #d8d8d8, #cbcbcb);
+    float: left;
+}
+
+.col1 {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+.col2 {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.visible {
+    display: block;
+}
+
+/* Ustawienie obrazka z fotelem */
+
+.chairImageClass {
+    position: absolute;
+}
+.chairImageClass li:nth-of-type(2) {
+    position: relative;
+    top: 50px;
+    left: 40%;
+}
+
+/* Ustawienie strzałek */
+
+.col1 p {
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: 700;
+    color:  rgb(50, 201, 181);
+    position: relative;
+    left: 35%;
+    top: 40%;
+}
+
+
+/* Nagłówek i lorem ipsum */
+
+.col2 h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 span {
+    font-weight: 800;
+}
+
+.col2 p {
+    text-align: center;
+    padding: 8px;
+    margin-top: 5%;
+}
+
+/* Slider - button */
+
+.col2 button {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: rgb(50, 201, 181);
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/* Sekcja "Blog" */
+
+#blog {
+    height: 290px;
+    width: 100vw;
+    background: rgb(247, 247, 247);
+    float: left;
+}
+
+.col33 {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+#img1 {
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    background-image: url("../images/box1_img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    background-image: url("../images/box2_img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+#img3 {
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    border: solid 0.3px rgba(146, 146, 146, 0.377);
+    color:  rgb(80, 80, 80);
+}
+
+.transparent {
+    width: 99%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.527);
+    position: relative;
+    top: 70%;
+}
+
+.transparent>p {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+    padding: 5px;
+}
+
+.line {
+    width: 40%;
+    height: 3px;
+    border: solid 3px rgb(50, 201, 181);
+    background: rgb(50, 201, 181);
+    margin-left: 5px;
+    float: left;
+}
+
+#img3>h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+    padding: 7px;
+}
+
+#img3>p {
+    font-size: 14px;
+    float: left;
+    margin: 5%;
+}
+
+/* Sekcja Nagłówek/Main (do zakładki Cennik i Kontakt) */
+
+.main {
+    width: 100%;
+    height: 70px;
+    background: rgb(214, 214, 214);
+    float: left;
+}
+
+.lid {
+    padding: 2%;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+}
+
+
+/* Sekcja Cennik */
+
+#price {
+    width: 100%;
+    height: 700px;
+    background: rgb(214, 214, 214);
+    float: left;
+}
+
+.frame {
+    width: 80%;
+    height: 80%;
+    margin-top: 22%;
+}
+
+.frame1 {
+    border: solid 4px rgb(189, 188, 188);
+    background: rgba(231, 230, 230, 0.384);
+}
+
+.frame2 {
+    border: solid 4px rgb(50, 201, 181);
+    background: rgba(50, 201, 181, 0.767);
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -40px;
+}
+
+.circle1 {
+    border: solid 4px rgb(189, 188, 188);
+    border-radius: 50%;
+    background: rgb(189, 188, 188);
+    box-shadow: inset 0 0 0 20px rgb(231, 230, 230);
+}
+
+.circle2 {
+    border: solid 4px rgb(50, 201, 181);
+    border-radius: 50%;
+    background: rgb(231, 230, 230);
+    box-shadow: inset 0 0 0 20px rgba(50, 201, 181, 0.767);
+}
+
+/* Stylowanie treści cennika */
+
+.frame {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+/* #price p:nth-first-child(1) {
+    color: rgb(50, 201, 181);
+    font-weight: 700;
+} */
+
+.title1 {
+    color: rgb(50, 201, 181);
+    font-weight: 700;
+}
+
+.title2 {
+    color: rgb(221, 221, 221);
+    font-weight: 700;
+}
+
+.priceCircle {
+    border: solid 4px rgb(189, 188, 188);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background:  rgb(230, 229, 229);
+    margin-top: 5%;
+}
+
+.priceCircle p {
+    position: relative;
+    top: 35px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.data {
+    margin-top: 10px;
+    padding: 2%;
+    width: 100%;
+    height: 40px;
+    background: rgba(248, 246, 246, 0.432);
+    border: solid 1px rgb(151, 151, 151);
+}
+
+.priceButton {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: rgb(50, 201, 181);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btnv2 {
+    color: rgb(43, 168, 152);
+    background: rgb(223, 223, 223);
+    margin-top: 70px;
+}
+
+.btnv1 {
+    margin-top: 120px;
+}
+
+/* Sekcja Kontakt */
+
+#contact {
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+
+.backgroundWhite {
+    background: white;
+}
+
+.col45 {
+    height: 100%;
+    width: 45%;
+    float: left;
+    margin: 2%;
+}
+
+/* Formularz */
+
+input {
+    width: 96%;
+    height: 50px;
+    margin: 2%;
+    border: solid 1px rgb(50, 201, 181);
+    font-size: 26px;
+    padding: 5px;
+}
+
+textarea {
+    margin: 2%;
+    width: 96%;
+    background: white;
+    border: solid 1px rgb(50, 201, 181);
+    font-size: 26px;
+    padding: 5px;
+}
+
+/* Czerwony fotel */
+
+.media {
+    padding: 1%;
+}
+
+#redChair {
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/red_chair.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Zgoda na przetwarzanie danych */
+
+#confirm {
+    height: 60px;
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
+    border: dotted 1px gray;
+}
+
+#confirmImg {
+    height: 100%;
+    width: 60px;
+    border: solid 1px rgb(50, 201, 181);
+    background-image: url("../images/form_ok.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#confirm p {
+    font-size: 22px;
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+}
+
+/* Button "Wyślij" */
+
+#sendButton {
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background: rgb(50, 201, 181);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+#copyrights {
+    width: 50%;
+    color: rgb(185, 185, 185);
+    font-weight: 300;
+    font-size: 16px;
+    padding: 6px;
+    float: left;
+}
+
+#mediaImgs {
+    width: 40%;
+}
+
+.mediaCircle {
+    width: 28px;
+    height: 28px;
+    margin: 1px;
+    border: solid 1px transparent;
+    border-radius: 50%;
+    float: left;
+}
+
+#flickr {
+    background-image: url("../images/flickr.png");
+    background-position: center;
+}
+
+#vimeo {
+    background-image: url("../images/vimeo.png");
+    background-position: center;   
+}
+
+#pinterest {
+    background-image: url("../images/pinterest.png");
+    background-position: center;
+}
+
+#twitter {
+    background-image: url("../images/twitter.png");
+    background-position: center;
+}
+
+#logoEnd {
+    width: 10%;
+    height: 100%;
+    float: right;
+    color: rgb(185, 185, 185);
+    font-weight: 300;
+    font-size: 16px;
+    padding: 6px;
+}
+
+
+
+
+
