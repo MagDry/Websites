@@ -8,9 +8,10 @@ Visit these projects here:
 2. W02 - Road: https://magdry.github.io/Websites/W02-Road/  (HTML, CSS)
 3. W03 - SitOnChair: https://magdry.github.io/Websites/W03-SitOnChair/ (HTML, CSS, JS)
 ______________________
+1.
 <img src="http://magdry.pl/images/cats.jpg"/>
-______________________
+2.
 <img src="http://magdry.pl/images/road.jpg"/>
-______________________
+3.
 <img src="http://magdry.pl/images/sitOnChair.jpg"/>
-______________________
+
