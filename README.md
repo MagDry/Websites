@@ -8,10 +8,11 @@ Visit these projects here:
 2. W02 - <a href="https://magdry.github.io/Websites/W02-Road/">Road</a>  (HTML, CSS)
 3. W03 - <a href="https://magdry.github.io/Websites/W03-SitOnChair/">SitOnChair</a> (HTML, CSS, JS)
 ______________________
-1.
-<img src="http://magdry.pl/images/cats.jpg"/>
-2.
-<img src="http://magdry.pl/images/road.jpg"/>
 3.
 <img src="http://magdry.pl/images/sitOnChair.jpg"/>
+2.
+<img src="http://magdry.pl/images/road.jpg"/>
+1.
+<img src="http://magdry.pl/images/cats.jpg"/>
+
 
