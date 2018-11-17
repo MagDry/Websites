@@ -1,0 +1,38 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  width: 100%;
+  height: 600px;
+  border: solid 1px red; }
+  header .banner {
+    width: 100%;
+    height: 100%; }
+    header .banner .bannerImg {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex; }
+  body .bodyImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; }
+  body .container {
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    border: solid 1px yellow; }
