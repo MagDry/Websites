@@ -7,6 +7,7 @@ Visit these projects here:
 1. W01 - <a href="https://magdry.github.io/Websites/W01-Cats/">Cats</a> (HTML, CSS)
 2. W02 - <a href="https://magdry.github.io/Websites/W02-Road/">Road</a>  (HTML, CSS)
 3. W03 - <a href="https://magdry.github.io/Websites/W03-SitOnChair/">SitOnChair</a> (HTML, CSS, JS)
+3. W03 - <a href="https://magdry.github.io/Websites/W04-Bethany/">SitOnChair</a> (HTML, CSS, JS) (layout and graphics based on <a href="https://bootstrapmade.com/demo/Bethany/">BootstrapMade</a>)
 ______________________
 3.
 <img src="http://magdry.pl/images/sitOnChair.jpg"/>
