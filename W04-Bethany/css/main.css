@@ -65,7 +65,7 @@ header {
       width: 250px;
       font-size: 30px;
       font-weight: 900;
-      margin-top: 5px;
+      margin-top: 8px;
       float: left; }
     header .navBar .smallContainer #listNav {
       float: right;
@@ -75,8 +75,12 @@ header {
         list-style: none; }
         header .navBar .smallContainer #listNav ul li {
           margin-left: 40px; }
-        header .navBar .smallContainer #listNav ul :first-child {
-          color: var(--colorY); }
+          header .navBar .smallContainer #listNav ul li a {
+            text-decoration: none;
+            cursor: pointer;
+            color: white; }
+            header .navBar .smallContainer #listNav ul li a span {
+              color: var(--colorY); }
 
 body {
   height: 100vh;

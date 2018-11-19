@@ -74,7 +74,7 @@ header {
                 width: 250px;
                 font-size: 30px;
                 font-weight: 900;
-                margin-top: 5px;
+                margin-top: 8px;
                 float: left;
             }
             #listNav {
@@ -85,12 +85,16 @@ header {
                     list-style: none;
                     li {
                         margin-left: 40px;
-                    }
-                    :first-child {
-                        color: var(--colorY);
+                        a {
+                            text-decoration: none;
+                            cursor: pointer;
+                            color: white;
+                            span {
+                                color: var(--colorY);
+                            }
+                        }
                     }
                 }
-
             }
         }
     }
