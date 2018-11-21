@@ -172,6 +172,28 @@ body {
 .subscribe {
   width: 100%;
   height: 200px;
-  background: transparent; }
+  background: rgba(34, 14, 0, 0.383); }
   .subscribe .smallContainer {
     display: flex; }
+    .subscribe .smallContainer .subscribeText {
+      width: 70%;
+      height: 100%;
+      padding-top: 4.2%; }
+      .subscribe .smallContainer .subscribeText p:nth-child(1) {
+        color: white;
+        font-size: 26px;
+        margin: 10px; }
+      .subscribe .smallContainer .subscribeText p:nth-child(2) {
+        color: white;
+        font-size: 14px; }
+    .subscribe .smallContainer .subscribeBtn {
+      width: 20%;
+      height: 100%; }
+      .subscribe .smallContainer .subscribeBtn button {
+        width: 210px;
+        height: 40px;
+        margin-top: 80px;
+        background: var(--colorY);
+        color: #5f5534;
+        border: solid 3px var(--colorY);
+        font-size: 16px; }

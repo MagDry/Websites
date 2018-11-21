@@ -1,8 +1,37 @@
 .subscribe {
     width: 100%;
     height: 200px;
-    background: transparent;
+    background: rgba(34, 14, 0, 0.383);
     .smallContainer {
         display: flex;
+        .subscribeText {
+            width: 70%;
+            height: 100%;
+            // border: solid 1px blue;
+            padding-top: 4.2%;
+            p:nth-child(1) {
+                color: white;
+                font-size: 26px;
+                margin: 10px;
+            }
+            p:nth-child(2) {
+                color: white;
+                font-size: 14px;
+            }
+        }
+        .subscribeBtn {
+            width: 20%;
+            height: 100%;
+            // border: solid 1px red;
+            button {
+                width: 210px;
+                height: 40px;
+                margin-top: 80px;
+                background: var(--colorY);
+                color: rgb(95, 85, 52);
+                border: solid 3px var(--colorY);
+                font-size: 16px;
+            }
+        }
     }
 }
