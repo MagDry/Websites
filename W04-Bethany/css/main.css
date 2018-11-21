@@ -197,3 +197,10 @@ body {
         color: #5f5534;
         border: solid 3px var(--colorY);
         font-size: 16px; }
+
+.portfolio {
+  width: 100%;
+  height: 500px;
+  background: var(--colorLG); }
+  .portfolio .smallContainer {
+    display: flex; }
