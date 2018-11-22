@@ -196,7 +196,8 @@ body {
         background: var(--colorY);
         color: #5f5534;
         border: solid 3px var(--colorY);
-        font-size: 16px; }
+        font-size: 16px;
+        cursor: pointer; }
 
 .portfolio {
   width: 100%;
@@ -240,5 +241,104 @@ body {
 
 .contact {
   width: 100%;
-  height: 600px;
-  background: var(--colorLG); }
+  height: 700px;
+  background: var(--colorLG);
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .contact .smallContainer {
+    display: flex; }
+    .contact .smallContainer .col65 {
+      height: 100%;
+      width: 65%; }
+      .contact .smallContainer .col65 .verse30 {
+        width: 100%;
+        height: 30%; }
+        .contact .smallContainer .col65 .verse30 .contactH1 {
+          font-size: 35px;
+          font-weight: 500;
+          margin: 5px;
+          margin-bottom: 15px; }
+        .contact .smallContainer .col65 .verse30 .line {
+          width: 50px;
+          height: 4px;
+          background: black;
+          float: left;
+          margin-left: 10px; }
+        .contact .smallContainer .col65 .verse30 .contactText {
+          margin-left: 10px;
+          margin-top: 50px;
+          color: black; }
+      .contact .smallContainer .col65 .verse70 {
+        width: 100%;
+        height: 70%;
+        display: flex; }
+        .contact .smallContainer .col65 .verse70 .col55 {
+          height: 100%;
+          width: 55%; }
+          .contact .smallContainer .col65 .verse70 .col55 .contactH2 {
+            font-size: 24px;
+            font-weight: 500;
+            margin: 5px;
+            padding-bottom: 15px;
+            padding-top: 20px; }
+          .contact .smallContainer .col65 .verse70 .col55 input {
+            width: 96%;
+            height: 35px;
+            font-size: 15px;
+            border: solid 1px gray;
+            border-radius: 5px;
+            margin: 2%;
+            padding: 5px; }
+          .contact .smallContainer .col65 .verse70 .col55 textarea {
+            width: 96%;
+            height: 140px;
+            font-size: 15px;
+            border: solid 1px gray;
+            border-radius: 5px;
+            margin: 2%;
+            padding: 5px; }
+          .contact .smallContainer .col65 .verse70 .col55 button {
+            width: 70px;
+            height: 35px;
+            background: var(--colorY);
+            color: #5f5534;
+            font-size: 18px;
+            font-weight: 400;
+            border: solid 1px var(--colorY);
+            margin: 10px;
+            cursor: pointer; }
+        .contact .smallContainer .col65 .verse70 .col45 {
+          height: 100%;
+          width: 45%; }
+          .contact .smallContainer .col65 .verse70 .col45 .contactH2 {
+            font-size: 24px;
+            font-weight: 500;
+            margin: 5px;
+            padding-bottom: 25px;
+            padding-top: 20px; }
+          .contact .smallContainer .col65 .verse70 .col45 .contactText {
+            font-size: 18px;
+            padding: 3px; }
+            .contact .smallContainer .col65 .verse70 .col45 .contactText .icon {
+              width: 22px;
+              height: 22px;
+              font-size: 18px;
+              margin: 4px;
+              text-align: center;
+              color: #505050; }
+    .contact .smallContainer .col35 {
+      height: 100%;
+      width: 35%;
+      display: flex; }
+      .contact .smallContainer .col35 div {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .contact .smallContainer .col35 div .icon {
+          width: 380px;
+          height: 380px;
+          font-size: 380px;
+          margin: 30px;
+          margin-top: -100px;
+          color: rgba(110, 110, 110, 0.445);
+          transform: rotate(15deg); }
