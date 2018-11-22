@@ -5,5 +5,23 @@ footer {
     color: white;
     .smallContainer {
         display: flex;
+        .footerText {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            p {
+                font-size: 14px;
+                padding: 4px;
+            }
+        }
+        .footerIcon {
+            display: flex;
+            // justify-content: flex-end;
+            align-items: center;
+            .icon {
+                padding: 4px;
+            }
+        }
     }
 }

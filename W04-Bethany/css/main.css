@@ -6,8 +6,7 @@
 
 header {
   width: 100%;
-  height: 600px;
-  border: solid 1px red; }
+  height: 600px; }
   header .banner {
     width: 100%;
     height: 100%;
@@ -98,13 +97,11 @@ body {
     top: 0px;
     z-index: 0;
     width: 100%;
-    height: auto;
-    border: solid 1px yellow; }
+    height: auto; }
 
 .smallContainer {
   width: 80%;
-  height: 100%;
-  border: solid 1px purple; }
+  height: 100%; }
 
 :root {
   --colorY: rgb(255, 205, 42);
@@ -112,8 +109,9 @@ body {
 
 .quot {
   width: 100%;
-  height: 220px;
-  background: white; }
+  height: 240px;
+  background: white;
+  padding-top: 10px; }
   .quot .smallContainer .quotFrame {
     width: 100%;
     height: 180px;
@@ -350,3 +348,16 @@ footer {
   color: white; }
   footer .smallContainer {
     display: flex; }
+    footer .smallContainer .footerText {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      footer .smallContainer .footerText p {
+        font-size: 14px;
+        padding: 4px; }
+    footer .smallContainer .footerIcon {
+      display: flex;
+      align-items: center; }
+      footer .smallContainer .footerIcon .icon {
+        padding: 4px; }
