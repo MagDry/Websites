@@ -8,7 +8,7 @@ Visit these projects here:
 2. W02 - <a href="https://magdry.github.io/Websites/W02-Road/">Road</a>  (HTML, CSS)
 3. W03 - <a href="https://magdry.github.io/Websites/W03-SitOnChair/">SitOnChair</a> (HTML, CSS, JS)
 4. W04 - <a href="https://magdry.github.io/Websites/W04-Bethany/">Bethany</a> (HTML, CSS, JS, SCSS, Webpack) (layout, content and graphics based on <a href="https://bootstrapmade.com/demo/Bethany/">BootstrapMade/Bethany</a>) [WIP]
-5. W05 - <a href="https://magdry.github.io/Websites/W05-AlexSmith/">AlexSmith</a> (HTML, CSS, JS, SCSS, Webpack) (layout, content and graphics based on <a href="https://bootstrapmade.com/demo/Folio/">BootstrapMade/Folio</a>) [WIP]
+5. W05 - <a href="https://magdry.github.io/Websites/W05-AlexSmith/">AlexSmith</a> (HTML, CSS, JS, SCSS, RWD, Webpack) (layout, content and graphics based on <a href="https://bootstrapmade.com/demo/Folio/">BootstrapMade/Folio</a>) [WIP]
 ______________________
 
 4.
