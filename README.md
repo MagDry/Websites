@@ -1,6 +1,6 @@
 # Websites
 
-Single websites (HTML5, CSS, SASS, JavaScript)
+Single websites (HTML5, CSS, SASS, JavaScript, RWD, Webpack)
 
 Visit these projects here:
 
