@@ -1,23 +1,38 @@
-$mobile: "(max-width: 480px)";
-$tablet: "(min-width: 481px) and (max-width: 960px)";
-$desktop: "(min-width: 961px)";
+$mobile: "(max-width: 640px)"; //380px, landscape mode: 640px
+$tablet: "(min-width: 641px) and (max-width: 960px)"; //landscape mode: 960-980px;
+$desktop: "(min-width: 961px)"; //and (max-width: 1240px)
+// $hd: "(min-width: 1241px)";
 
-// test RWD
+// test RWD, mobile first //passed
 
 header {
     width: 100%;
-    // height: 20rem;
-    border: solid 1px purple;
-}
+    border: solid 1px rgb(0, 206, 10);
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    @media #{$mobile} {
+        height: 350px;
+    }  
+    @media #{$tablet} {
+        height: 500px;
+    }
+    @media #{$desktop} {
+        height: 650px;
+    }
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+    .container {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        z-index: 2;
+    }
+};
 
-// header {
-//   @media #{$mobile} {
-//     font-size: 20px;
-//   }  
-//   @media #{$tablet} {
-//     font-size: 30px;
-//   }
-//   @media #{$desktop} {
-//     font-size: 40px;
-//   }
-// };
