@@ -13,10 +13,10 @@ header {
     margin: 0;
     padding: 0;
     @media #{$mobile} {
-        height: 350px;
+        height: 550px;
     }  
     @media #{$tablet} {
-        height: 500px;
+        height: 600px;
     }
     @media #{$desktop} {
         height: 650px;

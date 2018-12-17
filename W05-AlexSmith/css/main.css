@@ -17,10 +17,10 @@ header {
   padding: 0; }
   @media (max-width: 640px) {
     header {
-      height: 350px; } }
+      height: 550px; } }
   @media (min-width: 641px) and (max-width: 960px) {
     header {
-      height: 500px; } }
+      height: 600px; } }
   @media (min-width: 961px) {
     header {
       height: 650px; } }
