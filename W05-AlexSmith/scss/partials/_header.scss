@@ -33,6 +33,31 @@ header {
         top: 0;
         left: 5%;
         z-index: 2;
+        display: flex;
+        #headerText {
+            color: white;
+            font-weight: 900;
+            font-size: 3em;
+            border: solid 1px yellow;
+            // justify-content: flex-start;
+            // align-items: center;
+            .socialMedia {
+                display: flex;
+                div {
+                    width: 35px;
+                    height: 35px;
+                    border: solid 1px red;
+                    // justify-content: center;
+                    // align-content: center;
+                    a {
+                        color: white;
+                    }
+                        
+
+                }
+
+            }
+        }
     }
 };
 

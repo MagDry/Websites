@@ -6,7 +6,8 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
-  font-size: 10px; }
+  font-size: 10px;
+  font-family: 'PT Sans', sans-serif; }
 
 header {
   width: 100%;
@@ -34,7 +35,21 @@ header {
     position: absolute;
     top: 0;
     left: 5%;
-    z-index: 2; }
+    z-index: 2;
+    display: flex; }
+    header .container #headerText {
+      color: white;
+      font-weight: 900;
+      font-size: 3em;
+      border: solid 1px yellow; }
+      header .container #headerText .socialMedia {
+        display: flex; }
+        header .container #headerText .socialMedia div {
+          width: 35px;
+          height: 35px;
+          border: solid 1px red; }
+          header .container #headerText .socialMedia div a {
+            color: white; }
 
 #id {
   width: 100%;
