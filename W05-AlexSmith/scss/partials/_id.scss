@@ -1,5 +1,44 @@
+$mobile: "(max-width: 640px)"; //380px, landscape mode: 640px
+$tablet: "(min-width: 641px) and (max-width: 960px)"; //landscape mode: 960-980px;
+$desktop: "(min-width: 961px)"; //and (max-width: 1240px)
+// $hd: "(min-width: 1241px)";
+
 #id {
     width: 100%;
-    height: 100px;
+    min-height: 500px;
     border: solid 1px blue;
+    background-color: rgb(232, 232, 232);
+    .container {
+        @media #{$mobile} {
+            .idPhoto {
+                height: 500px;
+                width: 100%;
+                border: solid 1px red;
+                display: flex;
+                img {
+                    border: solid 20px rgb(100, 89, 68);
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+            }
+            .idInfo {
+                min-height: 200px;
+                width: 100%;
+                border: solid 1px red;
+                font-size: 1rem;
+                color: gray;
+                padding: 2%;
+                p {
+                    margin-top: 3%;
+                }
+            }
+
+        }  
+        @media #{$tablet} {
+            height: 600px;
+        }
+        @media #{$desktop} {
+            height: 650px;
+        }
+    }
 }
