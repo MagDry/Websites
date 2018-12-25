@@ -132,29 +132,70 @@ header {
 
 #offer {
   width: 100%;
-  height: 200px;
+  min-height: 200px;
   background-color: #e8e8e8;
-  border: solid 1px red; }
-  #offer .container {
-    border: solid 1px green; }
-    @media (max-width: 640px) {
-      #offer .container .offerBox {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  @media (max-width: 640px) {
+    #offer .container .offerBox {
+      width: 100%;
+      height: 100%; }
+      #offer .container .offerBox div {
         width: 100%;
-        height: 100%;
-        display: flex; }
-        #offer .container .offerBox div {
-          width: 100%;
-          height: 100%;
-          padding: 7%; }
-          #offer .container .offerBox div i {
-            font-size: 3rem;
-            color: rgba(100, 89, 68, 0.885); }
-          #offer .container .offerBox div h2 {
-            margin-top: 4%;
-            font-size: 1.3rem;
-            font-weight: 900;
-            color: rgba(41, 37, 29, 0.885); }
-          #offer .container .offerBox div p {
-            margin-top: 4%;
-            font-size: 0.8rem;
-            color: rgba(100, 89, 68, 0.885); } }
+        min-height: 150px;
+        padding: 3%; }
+        #offer .container .offerBox div i {
+          font-size: 3rem;
+          color: rgba(100, 89, 68, 0.885); }
+        #offer .container .offerBox div h2 {
+          margin-top: 4%;
+          font-size: 1.3rem;
+          font-weight: 900;
+          color: rgba(41, 37, 29, 0.885); }
+        #offer .container .offerBox div p {
+          margin-top: 4%;
+          font-size: 0.8rem;
+          color: rgba(100, 89, 68, 0.885); } }
+  @media (min-width: 641px) and (max-width: 960px) {
+    #offer .container .offerBox {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap; }
+      #offer .container .offerBox div {
+        width: 50%;
+        min-height: 150px;
+        padding: 3%; }
+        #offer .container .offerBox div i {
+          font-size: 3rem;
+          color: rgba(100, 89, 68, 0.885); }
+        #offer .container .offerBox div h2 {
+          margin-top: 4%;
+          font-size: 1.3rem;
+          font-weight: 900;
+          color: rgba(41, 37, 29, 0.885); }
+        #offer .container .offerBox div p {
+          margin-top: 4%;
+          font-size: 0.8rem;
+          color: rgba(41, 37, 29, 0.885); } }
+  @media (min-width: 961px) {
+    #offer .container .offerBox {
+      width: 100%;
+      height: 100%;
+      display: flex; }
+      #offer .container .offerBox div {
+        width: 50%;
+        min-height: 150px;
+        padding: 1%; }
+        #offer .container .offerBox div i {
+          font-size: 3rem;
+          color: rgba(100, 89, 68, 0.885); }
+        #offer .container .offerBox div h2 {
+          margin-top: 4%;
+          font-size: 1.3rem;
+          font-weight: 900;
+          color: rgba(41, 37, 29, 0.885); }
+        #offer .container .offerBox div p {
+          margin-top: 4%;
+          font-size: 0.8rem;
+          color: rgba(41, 37, 29, 0.885); } }

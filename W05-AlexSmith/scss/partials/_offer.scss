@@ -6,21 +6,21 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
 
 #offer {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     background-color: rgb(232, 232, 232);
-    border: solid 1px red;
+    // border: solid 1px red;
+    padding-top: 30px;
+    padding-bottom: 30px;
     .container {
-        border: solid 1px green;
+        // border: solid 1px green;
         @media #{$mobile} {
             .offerBox {
                 width: 100%;
                 height: 100%;
-                // border: solid 1px purple;
-                display: flex;
                 div {
                     width: 100%;
-                    height: 100%;
-                    padding: 7%;
+                    min-height: 150px;
+                    padding: 3%;
                     i {
                         font-size: 3rem;
                         color: rgba(100, 89, 68, 0.885);
@@ -40,10 +40,60 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
             }
         }
         @media #{$tablet} {
-
+            .offerBox {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                div {
+                    width: 50%;
+                    min-height: 150px;
+                    padding: 3%;
+                    // flex-wrap: wrap;
+                    i {
+                        font-size: 3rem;
+                        color: rgba(100, 89, 68, 0.885);
+                    }
+                    h2 {
+                        margin-top: 4%;
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                        color: rgba(41, 37, 29, 0.885);
+                    }
+                    p {
+                        margin-top: 4%;
+                        font-size: 0.8rem;
+                        color: rgba(41, 37, 29, 0.885);
+                    }
+                }
+            }
         }
         @media #{$desktop} {
-
+            .offerBox {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                div {
+                    width: 50%;
+                    min-height: 150px;
+                    padding: 1%;
+                    i {
+                        font-size: 3rem;
+                        color: rgba(100, 89, 68, 0.885);
+                    }
+                    h2 {
+                        margin-top: 4%;
+                        font-size: 1.3rem;
+                        font-weight: 900;
+                        color: rgba(41, 37, 29, 0.885);
+                    }
+                    p {
+                        margin-top: 4%;
+                        font-size: 0.8rem;
+                        color: rgba(41, 37, 29, 0.885);
+                    }
+                }
+            }
         }
     }
 }
