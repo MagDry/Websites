@@ -9,16 +9,17 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
     min-height: 500px;
     border: solid 1px blue;
     background-color: rgb(232, 232, 232);
+    padding-top: 30px;
     
     @media #{$mobile} {
         .container {
             .idPhoto {
                 height: 500px;
                 width: 100%;
-                border: solid 1px red;
+                // border: solid 1px red;
                 display: flex;
                 img {
-                    border: solid 20px rgb(100, 89, 68);
+                    border: solid 20px rgba(100, 89, 68, 0.741);
                     margin-top: 5%;
                     margin-bottom: 5%;
                 }
@@ -26,10 +27,10 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
             .idInfo {
                 min-height: 200px;
                 width: 100%;
-                border: solid 1px red;
+                // border: solid 1px red;
                 font-size: 1rem;
                 color: gray;
-                padding: 2%;
+                padding: 5%;
                 p {
                     margin-top: 3%;
                 }
@@ -41,10 +42,10 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
             .idPhoto {
                 height: 500px;
                 width: 100%;
-                border: solid 1px blue;
+                // border: solid 1px blue;
                 display: flex;
                 img {
-                    border: solid 20px rgb(100, 89, 68);
+                    border: solid 20px rgba(100, 89, 68, 0.741);
                     margin-top: 5%;
                     margin-bottom: 5%;
                 }
@@ -52,10 +53,10 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
             .idInfo {
                 min-height: 200px;
                 width: 100%;
-                border: solid 1px blue;
+                // border: solid 1px blue;
                 font-size: 1rem;
                 color: gray;
-                padding: 2%;
+                padding: 5%;
                 p {
                     margin-top: 3%;
                 }
@@ -68,22 +69,33 @@ $desktop: "(min-width: 961px)"; //and (max-width: 1240px)
             .idPhoto {
                 height: 500px;
                 width: 40%;
-                border: solid 1px purple;
-                img {
-                    border: solid 20px rgb(100, 89, 68);
+                // border: solid 1px purple;
+                display: flex;
+                .photoItem {
+                    width: 80%;
+                    height: 80%;
+                    border: solid 20px rgba(100, 89, 68, 0.741);
+                    margin-top: 17%;
+                    margin-bottom: 3%;
+                    position: relative;
+                    img {
+                        position: absolute;
+                        left: 10%;
+                        bottom: 10%;
+                    }
                 }
             }
             .idInfo {
                 height: 500px;
                 width: 60%;
-                border: solid 1px purple;
+                // border: solid 1px purple;
                 font-size: 1rem;
                 color: gray;
-                padding: 2%;
+                padding: 8%;
                 p {
                     margin-top: 3%;
                 }
             }
         }
     }
-
+};

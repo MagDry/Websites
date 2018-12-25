@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function () {});
 /* 3 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\n    }\r\n    ^\r\n      Invalid CSS after \"    }\": expected \"}\", was \"\"\r\n      in C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\scss\\partials\\_id.scss (line 88, column 6)\n    at runLoaders (C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\sass-loader\\lib\\loader.js:55:13)\n    at Object.done [as callback] (C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\neo-async\\async.js:8077:18)\n    at options.error (C:\\Users\\Admin\\Desktop\\IT\\PROJEKTY NA GitHub\\Websites\\W05-AlexSmith\\node_modules\\node-sass\\lib\\index.js:294:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

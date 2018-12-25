@@ -70,99 +70,65 @@ header {
   width: 100%;
   min-height: 500px;
   border: solid 1px blue;
-  background-color: #e8e8e8; }
+  background-color: #e8e8e8;
+  padding-top: 30px; }
   @media (max-width: 640px) {
     #id .container .idPhoto {
       height: 500px;
       width: 100%;
-      border: solid 1px red;
       display: flex; }
       #id .container .idPhoto img {
-        border: solid 20px #645944;
+        border: solid 20px rgba(100, 89, 68, 0.741);
         margin-top: 5%;
         margin-bottom: 5%; }
     #id .container .idInfo {
       min-height: 200px;
       width: 100%;
-      border: solid 1px red;
       font-size: 1rem;
       color: gray;
-      padding: 2%; }
+      padding: 5%; }
       #id .container .idInfo p {
         margin-top: 3%; } }
   @media (min-width: 641px) and (max-width: 960px) {
     #id .container .idPhoto {
       height: 500px;
       width: 100%;
-      border: solid 1px blue;
       display: flex; }
       #id .container .idPhoto img {
-        border: solid 20px #645944;
+        border: solid 20px rgba(100, 89, 68, 0.741);
         margin-top: 5%;
         margin-bottom: 5%; }
     #id .container .idInfo {
       min-height: 200px;
       width: 100%;
-      border: solid 1px blue;
       font-size: 1rem;
       color: gray;
-      padding: 2%; }
+      padding: 5%; }
       #id .container .idInfo p {
         margin-top: 3%; } }
   @media (min-width: 961px) {
     #id .container {
-      display: flex; } }
-  @media (max-width: 640px) {
-    #id .container .idPhoto {
-      height: 500px;
-      width: 100%;
-      border: solid 1px red;
       display: flex; }
-      #id .container .idPhoto img {
-        border: solid 20px #645944;
-        margin-top: 5%;
-        margin-bottom: 5%; }
-    #id .container .idInfo {
-      min-height: 200px;
-      width: 100%;
-      border: solid 1px red;
-      font-size: 1rem;
-      color: gray;
-      padding: 2%; }
-      #id .container .idInfo p {
-        margin-top: 3%; } }
-  @media (min-width: 641px) and (max-width: 960px) {
-    #id .container .idPhoto {
-      height: 500px;
-      width: 100%;
-      border: solid 1px blue;
-      display: flex; }
-      #id .container .idPhoto img {
-        border: solid 20px #645944;
-        margin-top: 5%;
-        margin-bottom: 5%; }
-    #id .container .idInfo {
-      min-height: 200px;
-      width: 100%;
-      border: solid 1px blue;
-      font-size: 1rem;
-      color: gray;
-      padding: 2%; }
-      #id .container .idInfo p {
-        margin-top: 3%; } }
-  @media (min-width: 961px) {
-    #id .container .idPhoto {
-      height: 500px;
-      width: 40%;
-      border: solid 1px purple; }
-      #id .container .idPhoto img {
-        border: solid 20px #645944; }
-    #id .container .idInfo {
-      height: 500px;
-      width: 60%;
-      border: solid 1px purple;
-      font-size: 1rem;
-      color: gray;
-      padding: 2%; }
-      #id .container .idInfo p {
-        margin-top: 3%; } }
+      #id .container .idPhoto {
+        height: 500px;
+        width: 40%;
+        display: flex; }
+        #id .container .idPhoto .photoItem {
+          width: 80%;
+          height: 80%;
+          border: solid 20px rgba(100, 89, 68, 0.741);
+          margin-top: 17%;
+          margin-bottom: 3%;
+          position: relative; }
+          #id .container .idPhoto .photoItem img {
+            position: absolute;
+            left: 10%;
+            bottom: 10%; }
+      #id .container .idInfo {
+        height: 500px;
+        width: 60%;
+        font-size: 1rem;
+        color: gray;
+        padding: 8%; }
+        #id .container .idInfo p {
+          margin-top: 3%; } }
