@@ -13,6 +13,8 @@ Visit these projects here:
 *layout, content and graphics
 ______________________
 
+5.
+<img src="http://magdry.pl/images/AlexSmith.jpg"/>
 4.
 <img src="http://magdry.pl/images/bethany.jpg"/>
 3.
