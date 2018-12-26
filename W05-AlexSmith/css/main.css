@@ -199,3 +199,8 @@ header {
           margin-top: 4%;
           font-size: 0.8rem;
           color: rgba(41, 37, 29, 0.885); } }
+
+#portfolio {
+  width: 100%;
+  min-height: 600px;
+  background-color: #e8e8e8; }
