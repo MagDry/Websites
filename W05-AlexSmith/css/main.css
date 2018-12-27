@@ -204,3 +204,7 @@ header {
   width: 100%;
   min-height: 600px;
   background-color: #e8e8e8; }
+  #portfolio h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 30px; }
