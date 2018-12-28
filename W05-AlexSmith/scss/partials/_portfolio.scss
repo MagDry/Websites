@@ -7,4 +7,31 @@
         font-size: 1.8rem;
         padding-top: 30px;
     }
+    @media #{$mobile} {
+        .portfolioNav {
+            ul {
+                li {
+
+                }
+            }
+        }
+    }
+    @media #{$tablet} {
+        .portfolioNav {
+            ul {
+                li {
+                    
+                }
+            }
+        }
+    }
+    @media #{$desktop} {
+        .portfolioNav {
+            ul {
+                li {
+                    
+                }
+            }
+        }
+    }
 }
