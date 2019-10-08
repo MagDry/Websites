@@ -1,12 +1,12 @@
 {
-  "name": "ReactAndEs6WebPackBasicPackages",
+  "name": "reactandes6webpackbasicpackages",
   "version": "1.0.0",
   "description": "# basic config to start working with ES6 and React",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wp": "./node_modules/.bin/webpack",
-    "serve": "./node_modules/.bin/webpack-dev-server --hot"
+    "wp": "webpack",
+    "serve": "webpack-dev-server --hot"
   },
   "author": "DL",
   "license": "ISC",
