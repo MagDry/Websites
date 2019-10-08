@@ -1,0 +1,13 @@
+#container {
+    min-height: 550px;
+    width: 100%;
+    border: solid 1px black;
+    position: absolute;
+}
+
+#smallContainer {
+    min-height: 550px;
+    width: 80vw;
+    border: solid 1px red;
+    position: relative;
+}
