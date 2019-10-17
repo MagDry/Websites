@@ -25,19 +25,44 @@
     }
 
     .bannerContainer {
-        #bannerLogo {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+
+
+        .miniBannerContainer {
             width: 100%;
             height: 50%;
             position: absolute;
-            z-index: 2;
+            // z-index: 2;
             object-fit: contain;
             border: solid 1px pink;
             display: flex;
+            // flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            #bannerLogo {
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // object-fit: contain;
+            }
 
             img {
                 width: auto;
                 height: 100%;
+                padding: 1%;
+                // object-fit: contain;
+                // margin-left: 1.5em;
+                // margin-right: 1.5em;
             }
+        }
+
+        #bannerText {
+            color: white;
+            font-size: 1.5rem;
         }
     }
 }
